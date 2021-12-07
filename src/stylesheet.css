@@ -35,12 +35,15 @@ li:hover {
   width: 500px;
 }
 
-.home-text {
+.home-text,
+.contact-text {
   width: 400px;
   text-align: center;
 }
 
-.contentContainer .homeContainer {
+.contentContainer .homeContainer,
+.contentContainer .contact-container,
+.contact-info {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -93,4 +96,24 @@ li:hover {
 .hidden {
   text-decoration: none;
   font-weight: none;
+}
+
+.contact-info {
+  height: 400px;
+  width: 400px;
+  background-color: burlywood;
+  border: black 1px solid;
+}
+
+.contact-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.restaurant-img {
+  height: 200px;
+  border-radius: 100px;
+  margin: 20px 0px 20px 0px;
 }
